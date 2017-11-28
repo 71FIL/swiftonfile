@@ -148,7 +148,6 @@ and compare it with md5sum of the file on your filesystem.
 <a name="what_now" />
 
 ## What now?
-
 You now have a single node SwiftOnFile setup ready, next sane step is a multinode swift and SwiftOnFile setup. It is recomended to have a look at [OpenStack Swift deployment guide][] & [Multiple Server Swift Installation][].If you now consider yourself familiar with a typical 4-5 node swift setup, you are good to extent this setup further and add SwiftOnFile DiskFile implementation as a Storage Policy to it. If you want to use SwiftOnFile on a gluster volume, it would be good to have a seprate gluster cluster. We would love to hear about any deployment scenarios involving SOF.
     
 For more information, please visit the following links:
