@@ -8,6 +8,7 @@
 * [What now?](#what_now)
 
 <a name="overview" />
+
 ## Overview
 SwiftOnFile allows any POSIX compliant filesystem (which supports extended attributes) to be used as the backend to OpenStack Swift (Object Store).
 
@@ -16,6 +17,7 @@ The following guide assumes you have a running [OpenStack Swift SAIO setup][], a
 This guide will not provide detailed information on how to prepare a SAIO setup or how to create a gluster volume (or other FS).This guide assumes you know about these technologies; if you require any help in setting those please refer to the links provided.
 
 <a name="system_setup" />
+
 ## System Setup
 
 ### Prerequisites on CentOS/RHEL
@@ -144,7 +146,9 @@ You can also use etag information provided while you do HEAD on object
 and compare it with md5sum of the file on your filesystem. 
 
 <a name="what_now" />
+
 ## What now?
+
 You now have a single node SwiftOnFile setup ready, next sane step is a multinode swift and SwiftOnFile setup. It is recomended to have a look at [OpenStack Swift deployment guide][] & [Multiple Server Swift Installation][].If you now consider yourself familiar with a typical 4-5 node swift setup, you are good to extent this setup further and add SwiftOnFile DiskFile implementation as a Storage Policy to it. If you want to use SwiftOnFile on a gluster volume, it would be good to have a seprate gluster cluster. We would love to hear about any deployment scenarios involving SOF.
     
 For more information, please visit the following links:
